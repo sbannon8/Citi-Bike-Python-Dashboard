@@ -2,3 +2,10 @@ pandas
 requests
 json
 matplotlib
+seaborn
+keplergl
+plotly
+streamlit
+streamlit_keplergl
+numerize
+pillow
