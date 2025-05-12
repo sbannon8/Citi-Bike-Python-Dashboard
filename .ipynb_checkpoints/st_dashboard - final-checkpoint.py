@@ -17,8 +17,8 @@ from PIL import Image
 ### Initial Setting ####################
 
 # set page and title
-st.set_page_config(page_title = 'Divvy Bikes Strategy Dashboard', layout='wide')
-st.title("Divvy Bikes Strategy Dashboard")
+st.set_page_config(page_title = 'Citi Bikes Strategy Dashboard', layout='wide')
+st.title("Citi Bikes Strategy Dashboard")
 
 # create side bar
 st.sidebar.title("Aspect Selector")
@@ -42,8 +42,8 @@ daily_df = pd.read_csv('dailyReport.csv', index_col = 0)
 
 if page == "Intro page":
     # descriptive text
-    st.markdown("#### This dashboard aims to provide helpful insights on the expansion problems Divvy Bikes currently faces.")
-    st.markdown("Right now, Divvy bikes runs into a situation where customers complain about bikes not being available at certain times. This analysis will look at the potential reasons behind this. The dashboard is separated into 4 sections:")
+    st.markdown("#### This dashboard aims to provide helpful insights on the distribution problems Citi Bikes faces in New York.")
+    st.markdown("Right now, Citi Bikes encounters situation such as popular stations having too few bikes and less popular stations having too many, making renting and returning bikes more difficult. This analysis looks to identify where distibtion issues stem from and advise solutions. The dashboard is separated into 4 sections:")
     st.markdown("- Most popular stations")
     st.markdown("- Weather versus bike usage")
     st.markdown("- Map of bike trips")
@@ -51,7 +51,7 @@ if page == "Intro page":
     st.markdown("The dropdown menu on the left 'Aspect Selector' will take you to the different aspects of the analysis looked at.")
 
     # bike image
-    myImage = Image.open("Divvy_Bike.jpg") #source: https://ride.divvybikes.com/blog
+    myImage = Image.open("Citi_bike.jpg") #source: https://ride.divvybikes.com/blog
     st.image(myImage, width=550) 
 
 ### PAGE: Weather and bike usage ####### -----------------------------------------
@@ -149,7 +149,7 @@ else:
     st.header("Conclusions and recommendations")
     #bikes = Image.open("recs_page.png")  #source: Midjourney
     #st.image(bikes)
-    st.markdown("### Our analysis has shown that Divvy Bikes should focus on the following objectives moving forward:")
+    st.markdown("### Our analysis has shown that Citi Bikes should focus on the following objectives moving forward:")
     st.markdown("- Add more stations throughout Manhattan where popular tourist attrractions are concentrated, focusing on areas with higher bike-friendly paths and centrality to multiple attractions. Central Park and surrounding areas as well as lower Manhattan have the most demand.")
     st.markdown("- Ensure that bikes are fully stocked in all these stations during the warmer months in order to meet the higher demand, but provide a lower supply in winter and late autumn to reduce logistics costs")
                                                                                    
