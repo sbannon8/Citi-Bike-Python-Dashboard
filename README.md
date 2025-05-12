@@ -1,4 +1,4 @@
-"# Citi-Bike-Python-Dashboard" 
+# Citi-Bike-Python-Dashboard 
 *Analysis and dashboard conducted with python. Video presetation of dashboard linked below*
 
 <img src="./Divvy_Bike.jpg" alt="Divvy Bike" width="200"/>
@@ -31,5 +31,5 @@ The code is available as jupyter notebooks in this repository.
  ---
 
 ### Presentation Link: 
-#### For quick access to the presenation, click [here]([https://public.tableau.com/app/profile/sarah.bannon/viz/OlistProject_17416222663780/OlistAnalysis?publish=yes](https://drive.google.com/file/d/13mEIIWzxd4TLsvrG5w0IN66mhHhFn0Zt/view?usp=drive_link))
+#### For quick access to the presenation, click [here](https://drive.google.com/file/d/13mEIIWzxd4TLsvrG5w0IN66mhHhFn0Zt/view?usp=drive_link)
 
