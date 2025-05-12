@@ -1,5 +1,5 @@
 # Citi-Bike-Python-Dashboard 
-*Analysis and dashboard conducted with python. Video presetation of dashboard linked below*
+*Analysis and dashboard conducted with python. Video presentation of dashboard linked below.*
 
 <img src="./Divvy_Bike.jpg" alt="Divvy Bike" width="200"/>
 
