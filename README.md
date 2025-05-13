@@ -31,5 +31,5 @@ The code is available as jupyter notebooks in this repository.
  ---
 
 ### Presentation Link: 
-#### For quick access to the presenation, click [here](https://drive.google.com/file/d/13mEIIWzxd4TLsvrG5w0IN66mhHhFn0Zt/view?usp=drive_link)
+#### For quick access to the presenation, click [here](https://drive.google.com/file/d/1YsBm-yL3_kMOeEe8-Pe7352S_m3xhCYP/view?usp=sharing)
 
